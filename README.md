@@ -50,12 +50,12 @@ pip install -r requirements.txt
 ```
 
 ### 3. Configuration
-**Option A: Local Machine (Development)** Configure your AWS credentials using the AWS CLI:
+Option A: Local Machine (Development)** Configure your AWS credentials using the AWS CLI:
 ```bash
 aws configure
 ```
-**Option B: EC2 Instance (Production - Recommended) Attach an IAM Role to your EC2 instance with the following permissions:
-*AmazonBedrockFullAccess
+Option B: EC2 Instance (Production - Recommended) Attach an IAM Role to your EC2 instance with the following permissions:
+* AmazonBedrockFullAccess
 
 ### 4. Run the App
 Launch the application using Streamlit:
