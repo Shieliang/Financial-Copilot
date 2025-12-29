@@ -44,13 +44,16 @@ Here is the system architecture for Financial Copilot.
 
 ### 2. Installation
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+# Navigate to your desired folder (e.g., Downloads)
+cd C:\Users\YourUsername\Downloads
+git clone https://github.com/Shieliang/Financial-Copilot.git
+
+#install the dependecies
 pip install -r requirements.txt
 ```
 
 ### 3. Configuration
-Option A: Local Machine (Development)** Configure your AWS credentials using the AWS CLI:
+Option A: Local Machine (Development)** [Official AWS CLI Installation Guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) & configure your AWS credentials:
 ```bash
 aws configure
 ```
