@@ -18,10 +18,11 @@ Financial documents are often dense and time-consuming to analyze. This tool lev
 
 ## ✨ Key Features
 
-* **Full-Context Analysis:** Ingests the entire PDF text to maintain data continuity across financial statements.
-* **Automated Data Extraction:** Quickly identifies and extracts key financial figures (such as EPS, Net Income, and Revenue) from dense, multi-page earnings reports.
-* **Hybrid Valuation Calculation:** Combines data extracted from the reports with user-provided parameters (such as Stock Price and Growth Rate) to calculate Forward P/E and PEG ratios based on standardized formulas.
-* **Valuation-First Reporting:** The summary is structured to prioritize quantitative metrics (P/E and PEG), using these calculated figures as a consistent reference for the overall analysis.
+* **Full-Context Analysis:** Ingests the entire PDF text to maintain data continuity across financial statements, avoiding fragmentation.
+* **Chain-of-Thought Reasoning:** Utilizes an explicit `<thought_process>` stage to audit units, currencies, and mathematical derivations before generating the final report.
+* **Chinese Language Output:** Specifically optimized to bridge the gap for Chinese-speaking investors by summarizing English/Global financial reports into structured Chinese briefs.
+* **Hybrid Valuation Calculation:** Combines data extracted from the reports with user-provided parameters (such as Stock Price) to calculate Forward P/E and PEG ratios based on standardized formulas.
+* **Valuation-First Reporting:** The summary is structured to prioritize quantitative metrics (P/E and PEG) as the primary basis for the analytical summary.
 
 ## 🏗️ Architecture
 
@@ -73,6 +74,10 @@ Full-Context vs. RAG: I experimented with different data ingestion methods and f
 
 * **DCF Modeling Complexity**: While the tool handles Relative Valuation (P/E & PEG) well, implementing a reliable **Discounted Cash Flow (DCF)** model remains a challenge. DCF requires multi-year forecasting and highly subjective assumptions (WACC, Terminal Growth) that current LLM logic can find difficult to stabilize without external spreadsheet integration.
 * **Multi-Report Comparison**: The current version focuses on single-report analysis. Future iterations could explore comparing year-over-year (YoY) data across multiple PDF uploads.
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
 
 ## ☕ Support My Learning
 
