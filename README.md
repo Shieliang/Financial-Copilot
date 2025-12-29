@@ -14,7 +14,7 @@ I built this project to help investors efficiently extract key insights and valu
 
 Financial documents are often dense and time-consuming to analyze. This tool leverages Amazon Bedrock to process full-text reports, summarizing core financial highlights and management guidance. It also implements a standardized calculation logic to derive metrics like Forward P/E and PEG, aiming to provide a consistent reference point for assessing a company's current valuation.
 
-![Demo](./Assets/Demo2.png)
+![Demo](./Assets/Demo.png)
 
 ## ✨ Key Features
 
