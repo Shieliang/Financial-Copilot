@@ -73,3 +73,11 @@ Full-Context vs. RAG: I experimented with different data ingestion methods and f
 
 * **DCF Modeling Complexity**: While the tool handles Relative Valuation (P/E & PEG) well, implementing a reliable **Discounted Cash Flow (DCF)** model remains a challenge. DCF requires multi-year forecasting and highly subjective assumptions (WACC, Terminal Growth) that current LLM logic can find difficult to stabilize without external spreadsheet integration.
 * **Multi-Report Comparison**: The current version focuses on single-report analysis. Future iterations could explore comparing year-over-year (YoY) data across multiple PDF uploads.
+
+## ☕ Support My Learning
+
+If you found this project helpful or interesting, feel free to buy me a coffee! It helps keep the AWS EC2 instance running.
+
+<a href="https://www.buymeacoffee.com/shieliang22" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60" width="217">
+</a>
